@@ -1,0 +1,35 @@
+    1  conda activate dev
+    2  ls
+    3  cd c:/
+    4  cd RajB*
+    5  cd challenge-4
+    6  ls
+    7  cd Star*
+    8  ls
+    9  git config --global user.name Raj Tolani
+   10  git config --global user.email admin@tolanicollection.com
+   11  git config --list
+   12  ls
+   13  git clone https://github.com/rajtolani/Challenge4-Risk-return-analysis.git
+   14  ls
+   15  git status
+   16  cd Ch*
+   17  git status
+   18  git add .
+   19  git commit -m "This version has the original starter files provided but the Fintech BootCamp Staff"
+   20  git push
+   21  git status
+   22  git status
+   23  git add risk_return_analysis.ipynb
+   24  git commit -m "Intermediate version with partial code till plot of Daily Returns"
+   25  git push
+   26  git status
+   27  git add risk_return_analysis.ipynb
+   28  git commit -m "Finshed all the coding. Need to review all comments and detail. Will make one final commit after reviewing all work. Will also submit command history"
+   29  git status
+   30  git push
+   31  git status
+   32  git add risk_return_analysis.ipynb
+   33  git commit -m "Finshed Submission. Will submit command History file after this"
+   34  git push
+   35  history 50 > terminal_history.txt
